@@ -57,6 +57,10 @@
   padding-left: 0.5rem;
 }
 
+.section{
+  margin-top: 4rem;
+}
+
 
 
 /* xs  */
@@ -81,6 +85,10 @@
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
+  }
+
+  .section{
+    margin-top: 8rem;
   }
 }
 /* xl */
