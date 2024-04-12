@@ -4,6 +4,8 @@
   align-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  position: relative;
+  z-index: 9999;
 }
 
 .header__menu {
@@ -41,7 +43,7 @@
     font-size: var(--size-xs);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-shade700);
+    color: var(--clr-shade600);
     letter-spacing: -0.05em;
     transition: 0.2s ease all;
   }
