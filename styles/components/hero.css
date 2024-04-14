@@ -1,0 +1,149 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero__content> :not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.hero__content {
+  text-align: center;
+}
+
+.hero__title {
+  color: var(--clr-dark);
+  text-transform: uppercase;
+  font-size: var(--size-4xl);
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+
+.hero__description {
+  max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
+}
+
+.hero__btn {
+  text-transform: capitalize;
+  font-size: var(--size-sm);
+}
+
+.hero-content__social-proof{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__img {
+  border-radius: 63% 37% 72% 28% / 23% 76% 24% 77%;
+  width: 15rem;
+  height: 15rem;
+  margin-inline: auto;
+  -webkit-box-shadow: 12px 10px 0px 0px rgba(190, 69, 81, 1);
+  -moz-box-shadow: 12px 10px 0px 0px rgba(190, 69, 81, 1);
+  box-shadow: 12px 10px 0px 0px rgba(190, 69, 81, 1);
+  
+}
+
+
+
+/* xs  */
+@media (min-width: 425px) {
+  .hero {
+    gap: 1.5rem;
+  }
+
+  .hero__content> :not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero__img {
+    width: 15.5rem;
+    height: 15.5rem;
+  }
+
+  .hero__title {
+    font-size: var(--size-5xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-base);
+  }
+
+  .hero__btn {
+    font-size: var(--size-base);
+  }
+}
+
+/* sm  */
+/* @media (min-width: 640px) {
+  
+} */
+
+/* md  */
+/* @media (min-width: 768px) {
+  
+} */
+
+/* lg  */
+@media (min-width: 1024px) {
+  .hero{
+    flex-direction: row;
+  }
+
+  .hero__content {
+    text-align: start;
+  }
+
+  .hero__img {
+    width: 21rem;
+    height: 21rem;
+  }
+
+  .hero__title {
+    font-size: var(--size-7xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-lg);
+    margin-inline: 0;
+  }
+
+  .hero__btn {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl  */
+@media (min-width: 1280px) {
+  .hero {
+    gap: 2rem;
+  }
+
+  .hero__img {
+    width: 27rem;
+    height: 27rem;
+  }
+
+  .hero__title {
+    font-size: var(--size-9xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-xl);
+  }
+
+  .hero__btn {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 2xl  */
+/* @media (min-width: 1536px) {
+  
+} */
