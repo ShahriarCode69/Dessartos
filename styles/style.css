@@ -36,11 +36,15 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: "Poppins", sans-serif;
   background-color: var(--clr-light);
   color: var(--clr-dark);
-  overflow-x: hidden;
+  background-color: #FFE4D1;
+  opacity: 1;
+  background-image: radial-gradient(#ffcbaa 2px, transparent 2px), radial-gradient(#ffcbaa 2px, #FFE4D1 2px);
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
 }
 
 img,
@@ -62,7 +66,7 @@ button {
   color: inherit;
 }
 
-a{
+a {
   color: var(--clr-pink);
   text-decoration: none;
 }
