@@ -25,7 +25,7 @@
 .hero__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-dark-shade);
 }
 
 .hero__btn {
