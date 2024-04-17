@@ -55,14 +55,12 @@
 }
 
 .hero__img {
-  border-radius: 63% 37% 72% 28% / 23% 76% 24% 77%;
   width: 15rem;
   height: 15rem;
   margin-inline: auto;
-  -webkit-box-shadow: 12px 10px 0px 0px rgba(190, 69, 81, 1);
-  -moz-box-shadow: 12px 10px 0px 0px rgba(190, 69, 81, 1);
-  box-shadow: 12px 10px 0px 0px rgba(190, 69, 81, 1);
-
+  -webkit-box-shadow: 17px 17px 0px -2px rgba(190, 69, 81, 1);
+  -moz-box-shadow: 17px 17px 0px -2px rgba(190, 69, 81, 1);
+  box-shadow: 17px 17px 0px -2px rgba(190, 69, 81, 1);
 }
 
 
@@ -160,8 +158,8 @@
   }
 
   .hero__img {
-    width: 27rem;
-    height: 27rem;
+    width: 32rem;
+    height: 32rem;
   }
 
   .hero__title {
