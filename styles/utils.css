@@ -61,6 +61,15 @@
   margin-top: 4rem;
 }
 
+.full-bleed{
+  box-shadow: 0 0 0 100vmax var(--clr-light-shade);
+  clip-path: inset(0 -100vmax);
+}
+
+.inverse {
+  background-color: var(--clr-light-shade);
+}
+
 .overlay-img__top{
   position: absolute;
   width: 20rem;
