@@ -38,9 +38,9 @@
     width: 15rem;
     height: 15rem;
     margin-inline: auto;
-    -webkit-box-shadow: -17px -17px 0px -2px rgba(190, 69, 81, 1);
-    -moz-box-shadow: -17px -17px 0px -2px rgba(190, 69, 81, 1);
-    box-shadow: -17px -17px 0px -2px rgba(190, 69, 81, 1);
+    -webkit-box-shadow: -17px 17px 0px 0px rgba(190, 69, 81, 1);
+    -moz-box-shadow: -17px 17px 0px 0px rgba(190, 69, 81, 1);
+    box-shadow: -17px 17px 0px 0px rgba(190, 69, 81, 1);
 }
 
 
