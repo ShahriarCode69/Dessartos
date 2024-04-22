@@ -18,6 +18,7 @@
 .review__description {
     max-width: 60ch;
     margin-inline: auto;
+    color: var(--clr-dark-shade);
 }
 
 .border {
@@ -41,7 +42,7 @@
 }
 
 .review {
-    padding: 30px;
+    padding: 1rem;
     background-color: var(--clr-dark);
     border-radius: 5px;
 }
