@@ -21,12 +21,18 @@
   letter-spacing: -0.05em;
   line-height: 0.9;
   font-weight: 700;
+  line-height: 2rem;
+}
+
+.hero__subtite {
+  font-size: var(--size-3xl);
 }
 
 .hero__description {
   max-width: 60ch;
   font-size: var(--size-sm);
   color: var(--clr-dark-shade);
+  margin-top: -1rem;
 }
 
 .hero__btn {
@@ -59,9 +65,9 @@
   width: 15rem;
   height: 15rem;
   margin-inline: auto;
-  -webkit-box-shadow: 17px 17px 0px -2px rgba(190, 69, 81, 1);
-  -moz-box-shadow: 17px 17px 0px -2px rgba(190, 69, 81, 1);
-  box-shadow: 17px 17px 0px -2px rgba(190, 69, 81, 1);
+  -webkit-box-shadow: 17px 17px 0px -2px #5A2312;
+  -moz-box-shadow: 17px 17px 0px -2px rgba#5A2312;
+  box-shadow: 17px 17px 0px -2px rgba#5A2312;
 }
 
 
@@ -85,6 +91,15 @@
 
   .hero__title {
     font-size: var(--size-5xl);
+    line-height: 2.25rem;
+  }
+
+  .hero__subtite {
+    font-size: var(--size-4xl);
+  }
+
+  .hero__description {
+    margin-top: -1.25rem;
   }
 
   .hero__description {
@@ -132,11 +147,17 @@
 
   .hero__title {
     font-size: var(--size-7xl);
+    line-height: 3.5rem;
+  }
+
+  .hero__subtite {
+    font-size: var(--size-6xl);
   }
 
   .hero__description {
     font-size: var(--size-lg);
     margin-inline: 0;
+    margin-top: -1.5rem;
   }
 
   .social__proof {
@@ -165,6 +186,11 @@
 
   .hero__title {
     font-size: var(--size-9xl);
+    line-height: 6rem;
+  }
+
+  .hero__subtite {
+    font-size: var(--size-8xl);
   }
 
   .hero__description {

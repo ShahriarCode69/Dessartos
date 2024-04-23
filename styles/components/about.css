@@ -15,12 +15,12 @@
 }
 
 .about__subtitle {
-    color: var(--clr-dark-shade);
+    color: var(--clr-light-shade);
     letter-spacing: -0.05em;
 }
 
 .about__title {
-    color: var(--clr-dark);
+    color: var(--clr-light);
     text-transform: uppercase;
     font-size: var(--size-4xl);
     letter-spacing: -0.05em;
@@ -31,16 +31,16 @@
 .about__description {
     max-width: 60ch;
     font-size: var(--size-sm);
-    color: var(--clr-dark-shade);
+    color: var(--clr-light-shade);
 }
 
 .about__img {
     width: 15rem;
     height: 15rem;
     margin-inline: auto;
-    -webkit-box-shadow: -17px 17px 0px 0px rgba(190, 69, 81, 1);
-    -moz-box-shadow: -17px 17px 0px 0px rgba(190, 69, 81, 1);
-    box-shadow: -17px 17px 0px 0px rgba(190, 69, 81, 1);
+    -webkit-box-shadow: -17px 17px 0px 0px #5A2312;
+    -moz-box-shadow: -17px 17px 0px 0px #5A2312;
+    box-shadow: -17px 17px 0px 0px #5A2312;
 }
 
 

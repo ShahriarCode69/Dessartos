@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
-  --clr-dark: #922731;
-  --clr-dark-shade: #b4414d;
-  --clr-light: #FFE4D1;
-  --clr-light-shade: #ffcbaa;
+  --clr-dark: #5A2312;
+  --clr-dark-shade: #74331f;
+  --clr-light: #fef3eb;
+  --clr-light-shade: #fed3b8;
 
   --clr-shade600: #cc414e;
   --clr-shade700: #d25763;
@@ -39,11 +39,10 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--clr-light);
+  background-color: #fef3eb;
   color: var(--clr-dark);
-  background-color: #FFE4D1;
   opacity: 1;
-  background-image: radial-gradient(#ffcbaa 2px, transparent 2px), radial-gradient(#ffcbaa 2px, #FFE4D1 2px);
+  background-image: radial-gradient(#ffcbaa 2px, transparent 2px), radial-gradient(#ffcbaa 2px, #fff5eb 2px);
   background-size: 80px 80px;
   background-position: 0 0, 40px 40px;
 }

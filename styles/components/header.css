@@ -43,7 +43,7 @@
     font-size: var(--size-xs);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-shade600);
+    color: var(--clr-dark-shade);
     letter-spacing: -0.05em;
     transition: 0.2s ease all;
   }
