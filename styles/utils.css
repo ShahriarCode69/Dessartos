@@ -82,7 +82,7 @@
 
 
 .link {
-	color: var(--clr-dark-shade);
+  color: var(--clr-dark-shade);
   position: relative;
   text-decoration: none;
 }
