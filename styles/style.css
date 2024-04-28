@@ -43,6 +43,18 @@ body {
   background-position: 0 0, 40px 40px;
 }
 
+body::-webkit-scrollbar {
+  width: 0.6em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: 0 0 6px var(--clr-light-shade);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-dark);
+}
+
 img,
 picture,
 video,
