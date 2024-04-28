@@ -41,7 +41,7 @@ body {
   background-image: radial-gradient(#ffcbaa 2px, transparent 2px), radial-gradient(#ffcbaa 2px, #fff5eb 2px);
   background-size: 80px 80px;
   background-position: 0 0, 40px 40px;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
