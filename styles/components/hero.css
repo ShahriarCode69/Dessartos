@@ -69,6 +69,7 @@
   -webkit-box-shadow: 17px 17px 0px -2px #5A2312;
   -moz-box-shadow: 17px 17px 0px -2px rgba#5A2312;
   box-shadow: 17px 17px 0px -2px rgba#5A2312;
+  background-color: var(--clr-dark-shade);
 }
 
 
